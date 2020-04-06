@@ -25,7 +25,7 @@ This repo contains:
 Usage
 -----
 
-* ``git clone ...``
+* ``git clone https://github.com/ph-preux/sockets-in-Fortran.git``
 * ``cd sockets-in-Fortran``
 * ``make``
   This should create two executable files, one named ``server`` the second one named ``client``
