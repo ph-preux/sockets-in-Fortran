@@ -26,7 +26,7 @@ Usage
 -----
 
 * ``git clone ...``
-* ``cd xxx``
+* ``cd sockets-in-Fortran``
 * ``make``
   This should create two executable files, one named ``server`` the second one named ``client``
 * ``./server``
