@@ -19,7 +19,7 @@ The content of this repo
 This repo contains:
 * ``server.f90``: a Fortran code that acts as a server in a socket based server/client communication.
 * ``client.c``: a C code that acts as a client in a socket based server/client communication.
-* ``str2int.f90``: a utility Fortran subroutine to cnvert a string into an integer value.
+* ``str2int.f90``: a utility Fortran subroutine to convert a string into an integer value.
 * ``Makefile``: to create the executables, ``server`` and ``client``.
 
 Usage
@@ -42,6 +42,8 @@ Ack
 ---
 
 While developing this demo, I benefited from a couple of helps:
-* the client/server example in C at this url: https://www.thegeekstuff.com/2011/12/c-socket-programming/
-* this other client/server example in C at this url: https://www.geeksforgeeks.org/socket-programming-cc/
-* the client/server example in Fortran at this url: https://github.com/lukeasrodgers/fortran-server
+* [a client/server example in C](https://www.thegeekstuff.com/2011/12/c-socket-programming/)
+* [an other client/server example in C](https://www.geeksforgeeks.org/socket-programming-cc/)
+* [a client/server example in Fortran](https://github.com/lukeasrodgers/fortran-server)
+
+Moreover, Luke Rodgers proposed me to use a module to define character strings functions instead of declaring them in server.f90. The idea is to use the [c_interface_module.f90](http://fortranwiki.org/fortran/show/c_interface_module). It is pretty easy to update ``server.f90`` to use it, so I let it to the interested reader to do it.
