@@ -46,4 +46,4 @@ While developing this demo, I benefited from a couple of helps:
 * [an other client/server example in C](https://www.geeksforgeeks.org/socket-programming-cc/)
 * [a client/server example in Fortran](https://github.com/lukeasrodgers/fortran-server)
 
-Moreover, Luke Rodgers proposed me to use a module to define character strings functions instead of declaring them in ``server.f90``. The idea is to use the [c_interface_module.f90](http://fortranwiki.org/fortran/show/c_interface_module). It is pretty easy to update ``server.f90`` to use it, so I let it to the interested reader to do it.
+Moreover, Luke Rodgers proposed me to use a module to define character strings functions instead of declaring them in ``server.f90``. The idea is to use the [c_interface_module.f90](http://fortranwiki.org/fortran/show/c_interface_module). It is pretty easy to update ``server.f90`` to use it, so I let the interested reader do it.
