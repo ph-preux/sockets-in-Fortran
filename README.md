@@ -42,6 +42,6 @@ Ack
 ---
 
 While developing this demo, I benefited from a couple of helps:
-* the client/server example in C at this url:
-* this other client/server example in C at this url:
-* the client/server example in Fortran at this url:
+* the client/server example in C at this url: https://www.thegeekstuff.com/2011/12/c-socket-programming/
+* this other client/server example in C at this url: https://www.geeksforgeeks.org/socket-programming-cc/
+* the client/server example in Fortran at this url: https://github.com/lukeasrodgers/fortran-server
