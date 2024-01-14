@@ -1,6 +1,10 @@
 Demo of a Fortran code communicating through a socket with a client
 ===================================================================
 
+[This code has moved to](https://philippe-preux.github.io/software/sockets-en-fortran).
+
+I just leave the Readme here.
+
 Purpose of this repo
 --------------------
 
